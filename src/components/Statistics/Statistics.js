@@ -11,7 +11,7 @@ function generateColor() {
 
 const Statistics = ({ title, stats }) => (
         <section className={style.statistics}>
-            {title ? <h2 className={style.title}>{title}</h2> : null}
+            {title && <h2 className={style.title}>{title}</h2>}
 
 
   <ul className={style.statList}>
